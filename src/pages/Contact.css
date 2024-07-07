@@ -1,0 +1,102 @@
+/* Contact.css */
+#contact {
+    padding: 1px;
+  }
+  .cols{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .contact-form {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 3px solid #610962;
+    width: 500px;
+  }
+  
+  .contact-form .form-label {
+    font-size: 18px;
+    margin-right: 500px;
+  }
+  
+  .contact-form .form-control {
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    color: #fff;
+  }
+  
+  .contact-form .form-control:focus {
+    background-color: transparent;
+    border: 1px solid #7e1c80;
+    color: #fff;
+  }
+  
+  .contact-form textarea.form-control {
+    min-height: 150px;
+  }
+  
+  .contact-form button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #580761;
+    border-radius: 30px;
+    border:#7c187e;
+  }
+  
+
+  .contact-form button:hover {
+    background-color: transparent;
+    border: 1px solid #7e1c80;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  .social-icons a:hover {
+    opacity: 0.8;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+  }
+  .facebook{
+    color: rgb(42, 150, 245);
+  }
+  .facebook:hover{
+    color: rgb(9, 91, 164);
+  }
+  .instagram{
+    color:rgb(253, 71, 71);
+  }
+  .instagram:hover{
+    color:rgb(248, 18, 18);
+  }
+  .twitter{
+    color: rgb(90, 167, 250);
+  }
+  .twitter:hover{
+    color:blue
+  }
+  .youtube{
+    color: red;
+  }
+  .youtube:hover{
+    color: rgb(241, 22, 22);
+  }
+  
+  
+  
+  

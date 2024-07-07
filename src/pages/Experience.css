@@ -1,0 +1,53 @@
+#experience {
+    min-height: 100vh;
+}
+.card img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+#experience img:hover {
+    width: 350px;
+    transition: all .5s ease;
+  }
+.uno{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.dos{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.tres{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.kwatro{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.singko{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.says{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 10px  15px #750573;
+}
+.animated-image {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .animated-image.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
